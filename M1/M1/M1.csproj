@@ -49,6 +49,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\S1\Helper\Helper\Helper.csproj">
+      <Project>{491128c9-3d5a-47e6-80f1-9cc1118886b2}</Project>
+      <Name>Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\S1\Helper\SharedLogging\SharedLogging.csproj">
+      <Project>{45f7db96-c849-4eff-8b33-662936fb97bc}</Project>
+      <Name>SharedLogging</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M1", "M1\M1.csproj", "{C05AD42E-E4A1-4301-857E-EAC11FCEAFE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "..\S1\Helper\Helper\Helper.csproj", "{491128C9-3D5A-47E6-80F1-9CC1118886B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLogging", "..\S1\Helper\SharedLogging\SharedLogging.csproj", "{45F7DB96-C849-4EFF-8B33-662936FB97BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C05AD42E-E4A1-4301-857E-EAC11FCEAFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C05AD42E-E4A1-4301-857E-EAC11FCEAFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C05AD42E-E4A1-4301-857E-EAC11FCEAFE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491128C9-3D5A-47E6-80F1-9CC1118886B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491128C9-3D5A-47E6-80F1-9CC1118886B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491128C9-3D5A-47E6-80F1-9CC1118886B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491128C9-3D5A-47E6-80F1-9CC1118886B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F7DB96-C849-4EFF-8B33-662936FB97BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F7DB96-C849-4EFF-8B33-662936FB97BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F7DB96-C849-4EFF-8B33-662936FB97BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F7DB96-C849-4EFF-8B33-662936FB97BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
