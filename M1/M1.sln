@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "..\S1\Helper\Help
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLogging", "..\S1\Helper\SharedLogging\SharedLogging.csproj", "{45F7DB96-C849-4EFF-8B33-662936FB97BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STree", "..\Shared\STree\STree\STree.csproj", "{4D2E3A94-272C-47E2-97ED-E44327336DF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{45F7DB96-C849-4EFF-8B33-662936FB97BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45F7DB96-C849-4EFF-8B33-662936FB97BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45F7DB96-C849-4EFF-8B33-662936FB97BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D2E3A94-272C-47E2-97ED-E44327336DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D2E3A94-272C-47E2-97ED-E44327336DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D2E3A94-272C-47E2-97ED-E44327336DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D2E3A94-272C-47E2-97ED-E44327336DF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

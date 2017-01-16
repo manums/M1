@@ -1,4 +1,5 @@
-﻿using System;
+﻿using STree;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,12 @@ namespace M1
         {
             SharedLogging.Logger logger = new SharedLogging.Logger();
             logger.WriteToFile("D:\\test.log", "I'm testing local logging from Solution M1");
-
+            
             Helper.SharedHelper helper = new Helper.SharedHelper();
             Console.WriteLine(helper.GetLength("hello"));
+
+            SubTree s = new SubTree();
+            s.PrintSubTree();
 
             Console.ReadLine();
         }

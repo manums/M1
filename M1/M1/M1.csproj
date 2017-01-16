@@ -58,6 +58,10 @@
       <Project>{45f7db96-c849-4eff-8b33-662936fb97bc}</Project>
       <Name>SharedLogging</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\Shared\STree\STree\STree.csproj">
+      <Project>{4d2e3a94-272c-47e2-97ed-e44327336df7}</Project>
+      <Name>STree</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
